@@ -2,9 +2,9 @@
 
 namespace App\Livewire\Forms;
 
+use App\Models\Post;
 use Livewire\Attributes\Rule;
 use Livewire\Form;
-use App\Models\Post;
 
 class PostForm extends Form
 {
