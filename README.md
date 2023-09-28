@@ -177,6 +177,7 @@ use App\Livewire\PostComponent;
 
 Open post-component.blade.php file and enter <h1>Posts<h1>.
 
+<h6>
 Now when you open localhost:8000/posts url it will display/render the data from post-component.blade.php file, it will show Posts with h1 tag.
 
 If the above page displays, it means that Livewire is installed successfully.
@@ -279,6 +280,8 @@ The above code says that the field is required & minimum 3 charaters are require
 To use this we need to import the below code above.
 
 use Livewire\Attributes\Rule;
+
+</h6>
 
 ## CREATING POST
 
