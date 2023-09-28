@@ -69,9 +69,12 @@
                   <div class="modal-body">
                       <form wire:submit.prevent="{{ $postId ? 'update' : 'store' }}">
                           <div class="form-group">
+
+
                               <label for="title">Post Title</label>
                               <input type="text" wire:model="form.title" class="form-control" id="title" placeholder="Enter post title">
                               <span class="text-danger">@error('form.title') {{ $message }} @enderror</span>
+
                           </div>
                           <div class="form-group">
                               <label for="body">Post Body</label>
